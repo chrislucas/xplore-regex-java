@@ -36,7 +36,20 @@ public class WordBoundary {
     }
 
     public static void main(String[] args) {
+        /**
+         * \\b define um limite de inicio e fim para achar uma correspondencia com uma palavra ou caracter qualquer
+         *
+         * */
         test1("\\bword\\b", "The word text editor");
-        test1("\\btest\\b", "Are you testing this software?");
+        /**
+         *
+         * \\B define um limite de inicio e fim para achar uma palavra que esteja entre este intervalo
+         * mas nao seja o intervalo. Exemplo:  procurar 'pin' Em Typing ou 'or' em word
+         * */
+        test1("\\Bword\\B", "The word text editor");
+        test1("\\Bor\\B", "The word text editor");
+        test1("\\Bpin\\B", "Typing");
+        test1("\\Btest\\B", "Are you testing this software?");
+        test1("\\Bestin\\B", "Are you testing this software?");
     }
 }
