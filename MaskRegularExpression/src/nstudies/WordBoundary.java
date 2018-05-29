@@ -1,10 +1,16 @@
 package nstudies;
 
-import impl.MatcherResult;
+
 
 import java.util.regex.MatchResult;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
+
+/**
+ * Start and End of Word -limites de uma palavra
+ *
+ * */
 
 public class WordBoundary {
 
