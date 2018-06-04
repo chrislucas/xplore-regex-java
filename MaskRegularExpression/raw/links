@@ -12,3 +12,7 @@ https://www.tutorialspoint.com/javaregex/javaregex_matchresult.htm
 Numeric Ranges
 http://www.regular-expressions.info/numericranges.html
 https://stackoverflow.com/questions/3148240/why-doesnt-01-12-range-work-as-expected
+
+
+Java word boundaries
+https://docs.oracle.com/javase/tutorial/i18n/text/word.html
